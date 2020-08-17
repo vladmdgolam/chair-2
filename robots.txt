@@ -1,0 +1,18 @@
+User-Agent: *
+Disallow: /page12815464.html
+Disallow: /head
+Disallow: /page12844401.html
+Disallow: /footer
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+Sitemap: http://home.crosbystudios.com/sitemap.xml
+Sitemap: http://home.crosbystudios.com/sitemap-store.xml
+Host: home.crosbystudios.com

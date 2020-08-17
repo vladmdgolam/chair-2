@@ -1,0 +1,48 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page13250520.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^home$ page12815441.html [NC]
+RewriteRule ^home/$ page12815441.html [NC]
+
+RewriteRule ^head$ page12815464.html [NC]
+RewriteRule ^head/$ page12815464.html [NC]
+
+RewriteRule ^footer$ page12844401.html [NC]
+RewriteRule ^footer/$ page12844401.html [NC]
+
+RewriteRule ^capsuleproject$ page12845611.html [NC]
+RewriteRule ^capsuleproject/$ page12845611.html [NC]
+
+RewriteRule ^drop1$ page12847506.html [NC]
+RewriteRule ^drop1/$ page12847506.html [NC]
+
+RewriteRule ^about$ page12848769.html [NC]
+RewriteRule ^about/$ page12848769.html [NC]
+
+RewriteRule ^shop$ page12857306.html [NC]
+RewriteRule ^shop/$ page12857306.html [NC]
+
+RewriteRule ^1$ page12938924.html [NC]
+RewriteRule ^1/$ page12938924.html [NC]
+
+RewriteRule ^search$ page13007592.html [NC]
+RewriteRule ^search/$ page13007592.html [NC]
+
+RewriteRule ^item$ page13094243.html [NC]
+RewriteRule ^item/$ page13094243.html [NC]
+
+RewriteRule ^3d$ page13277499.html [NC]
+RewriteRule ^3d/$ page13277499.html [NC]
+
+RewriteRule ^item2$ page13285100.html [NC]
+RewriteRule ^item2/$ page13285100.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
+

@@ -1,0 +1,17 @@
+.js-product > a,
+ .t-store__card > a{
+    position:relative;
+    display:block;
+    
+}
+.t786__textwrapper,
+.t-store__card__textwrapper{
+    position: absolute;
+    bottom: 36px;
+    z-index: 21;
+    text-align: center;
+    width: 100%;
+}
+.t-store__grid-separator{
+        margin-bottom: 40px
+}
